@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+.inactive{
+    display: none;
+}
+
+
+#checkbox{
+    margin: 15px;
+    
+}
+.main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin:  0 auto;
+    background: #ffffff;
+
+}
+
+.content__image {
+
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+.content__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content__principal{
+    width: 100%;
+    height: auto;
+    padding: 0 20px;
+}
+.content__join{
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.content__Stay-updated{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.content p {
+    font-size: 16px;
+}
+.content__check-products{
+    display: flex;
+    align-items: center;
+}
+.content__check-products img {
+    padding: 15px;
+}
+.content__addres{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.label__email{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.input__email{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    height: 60px;
+    outline: none;
+    border: 2px solid #c8c8c89d;
+    color: #c8c8c9;
+    padding-left: 15px;
+    font-size: 16px;
+    border-radius: 8px;
+
+}
+.label__name{
+    font-size: 12px;
+    font-weight: 700;
+}
+.input__name{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    height: 60px;
+    outline: none;
+    border: 2px solid #c8c8c89d;
+    color: #c8c8c9;
+    padding-left: 15px;
+    font-size: 16px;
+    border-radius: 8px;
+
+}
+.input__name:hover{
+    cursor: pointer;
+    border: 2px solid #000000;
+}
+.input__email:hover{
+    cursor: pointer;
+    border: 2px solid #000000;
+}
+.input__button{
+    border: 2px solid #272743;
+    background-color: #272743;
+    color: #ffffff;
+    padding-left: 15px;
+    font-size: 16px;
+    border-radius: 8px;  
+    height: 60px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.main__thanks {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+
+}
+.content__thanks{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    
+    
+}
+.content__thanks-img{
+
+    margin: 60px 0 50px 0;
+
+    font-size: 20px;
+}
+.content__thanks-img img{
+    margin-top: 30px;
+}
+.content__subscribing{
+    margin: 20px 0;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: start;
+    color: #272743;
+}
+.content__confirmation{
+    line-height: 1.7rem;
+    margin-bottom: 39%;
+    
+
+}
+.content__button{
+    width: 100%;
+    height: 60px;
+    border: 2px solid #272743;
+    background-color: #272743;
+    color: #ffffff;
+    padding-left: 15px;
+    font-size: 16px;
+    border-radius: 8px;     
+    margin-bottom: 0;
+    font-weight: 600;
+
+  
+}
+.warnigns {
+    width: 200px;
+    text-align: center;
+    margin:  auto;
+    color: #B06AB1;
+    padding-top:20px ;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:940px){
+    html{
+        background-color: #272743;
+    }
+    .main{
+
+        height: 86vh;
+        width: 70%;
+        margin-top: 4%;
+        border-radius: 8px;
+    }
+    .content{
+        position: absolute;
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 15px;
+        width: 100%;
+        height: 100%;
+        margin:  0 auto;
+
+    }
+    .content__image  {
+        position: relative;
+        width: 650px;
+        height: 100%;
+    }
+    .content__image  img {
+        border-radius: 10px;
+        width: 100%;
+    }
+    .content__principal{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        margin:60px ;
+
+    }
+    .content__Stay-updated{
+        font-size: 40px;
+    }
+    .input__button:hover{
+        cursor: pointer;
+        background:linear-gradient(207.8deg,#f57326e6 39.69%, #f1517e 63%)
+    }
+
+    .main__thanks {
+        border:  1px solid red;
+        width: 100%;
+        height: 100vh;
+    
+    }
+    .content__thanks{
+        margin-top: 11%;
+        width: 24%;
+        border:  1px solid blue;
+        padding: 15px 60px;
+        height: auto;
+        background-color: #ffff;
+        border-radius: 30px;
+        
+    }
+    .content__thanks-img {
+        margin: 0;
+    }
+    .content__confirmation{
+      margin-bottom: 80px;
+    
+    }
+    .content__button:hover{
+        cursor: pointer;
+        background:linear-gradient(207.8deg,#f57326e6 39.69%, #f1517e 63%)
+
+    }
+    
+}

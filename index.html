@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <script src="https://kit.fontawesome.com/41a389fdb6.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="index.css">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+<main class="main">
+  <div class="content">
+    <div class="content__image"><img src="./assets/images/illustration-sign-up-mobile.svg" alt=""></div>
+    <div class="content__principal">
+      <h1 class="content__Stay-updated"> Stay updated!</h1>
+
+      <p class="content__join"> Join 60,000+ product managers receiving monthly updates on:    </p>
+  
+
+        <div class="content__check-products">
+          <img src="./assets/images/icon-list.svg" alt="">
+        <p>  Product discovery and building what matters</p>
+        </div>
+
+        <div class="content__check-products">
+              <img src="./assets/images/icon-list.svg" alt="">
+          <p>  Measuring to ensure updates are a success      </p>
+        </div>
+        
+        <div class="content__check-products">
+              <img src="./assets/images/icon-list.svg" alt="">
+          <p>  And much more!      </p>
+        </div>
+       
+      <form class="content__addres">
+        <label for="" class="label__name">  Name</label>
+        <input type="text"   placeholder="Nombre" class="input__name" >
+        <label for="" class="label__email">  Email address</label>
+        <input type="email"   placeholder="  email@company.com" class="input__email" >
+
+        <button type="submit" class="input__button"> Subscribe to monthly newsletter</button>
+        <p class="warnigns"></p>
+      </form>
+  
+
+    </div>
+    
+  </div>
+
+</main>
+
+<main class="main__thanks ">
+  <div class="content__thanks">
+      <div class="content__thanks-img">
+          <img src="./assets/images/icon-success.svg" alt="">
+      </div>
+      <h1 class="content__subscribing">  Thanks for subscribing!</h1>
+
+      <p class="content__confirmation">  A confirmation email has been sent to <b>ash@loremcompany.com. </b>
+          Please open it and click the button inside to confirm your subscription.
+        </p>
+      <button class="content__button">
+          Dismiss message
+      </button>
+  </div>
+</main>
+<script src="index.js"></script>
+</body>
+</html>
